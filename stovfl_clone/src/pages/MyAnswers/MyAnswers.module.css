@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    z-index: 2;
+    margin-bottom:  12%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    }
+    
+    .postcontainer{
+        position: relative;
+        padding-top: 8%;
+        left: 25%;
+        width: 60%;
+    }
+    
+    .list{
+        list-style: none;
+        overflow-y: auto;
+    }
+    
+    .card{
+    box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.21);
+    margin: 4vh 0;
+    }

@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    font-size: 17px;
+    margin-bottom: 1%;
+}
+
+.left{
+    width: 5%;
+    text-align: center;
+    color:darkgreen;
+}
+.right{
+    width:95%;
+}
+

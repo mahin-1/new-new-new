@@ -1,0 +1,21 @@
+.wrapper{
+    position: fixed;
+    right: 2%;
+    width : 20%;
+    top: 21%;
+    
+}
+
+.statslist{
+    list-style: none;
+    font-size: larger;
+    padding-left: 0;
+}
+
+.listitem{
+    padding-top: 10%;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-size: 22px;
+}

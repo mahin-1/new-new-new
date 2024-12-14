@@ -1,0 +1,161 @@
+.navbar{
+    position: fixed;
+    z-index: 2;
+    margin-bottom:  12%;
+    width: 100%;
+}
+
+.profilepanel{
+    width: 70%;
+    min-height: 80vh;
+    position: absolute;
+    top: 15%;
+    left: 23%;
+}
+
+.informationPanel{
+    min-height: 36vh;
+}
+
+.aboutMePanel{
+    min-width: 42vh;
+}
+
+.info{
+    display: flex;
+}
+
+.image
+{
+    width: 35%;
+    height: 35%;
+    margin: 1vh;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.data{
+   margin: 1vh; 
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.listitem{
+  margin: 2vh;
+  width: 100%;  
+}
+
+.inputfield{
+    width: 80%;
+    font-size: 18px;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+
+.changebtn{
+    margin-left: 2vw;
+    padding: 1%;
+    font-size: 18px;
+}
+
+.pic3{
+    width: 16vw;
+    height: 16vw;
+    cursor: pointer;
+    border-radius: 50%;
+    animation: fadeOut 1s;
+}
+
+.pic{
+    width: 16vw;
+    height: 16vw;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.fileselect{
+    opacity: 0;
+}
+
+.resize{
+    width: fit-content;
+    position: relative;
+    left: 37%;
+    bottom: 50%;
+}
+
+.resizebtn{
+    padding: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 17px;
+}
+
+.pic2{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .4);
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+    from { width: 16vw;
+        height: 16vw;
+        border-radius: 50%;
+        }
+    to {
+        width: 100%;
+        height: 100%;;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .4);
+    }
+}
+
+@keyframes fadeOut{
+    from { width: 100%;
+        height: 100%;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .4);
+        border-radius: 0%;
+        }
+    to {
+        width: 16vw;
+        height: 16vw;
+        border-radius: 50%;
+    }
+}
+
+.wrapper2{background-color: rgba(255,255,255,0.5);
+    animation: faded 1s;
+}
+
+.wrapper1{background-color: rgba(255,255,255,1);
+    animation: fadeGone 1s;
+}
+
+@keyframes faded{
+    from {background-color: rgba(255,255,255,1);}
+    to {background-color: rgba(255,255,255,0.5);}
+}
+
+@keyframes fadeGone{
+    from {background-color: rgba(255,255,255,0.5);}
+    to {background-color: rgba(255,255,255,1);}
+}
+
+.text{
+    font-size: 19px;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.preview{
+    font-size: 19px;
+}
+
+.submitbtn{
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

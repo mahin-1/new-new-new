@@ -1,0 +1,64 @@
+.navbar{
+    position: fixed;
+    z-index: 2;
+    margin-bottom:  12%;
+    width: 100%;
+}
+
+.wrapper{
+height: 100%;
+width: 100%;
+}
+
+.postcontainer{
+    position: relative;
+    padding-top: 8%;
+    left: 25%;
+    width: 60%;
+}
+
+.list{
+    list-style: none;
+    overflow-y: auto;
+}
+
+.card{
+box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.21);
+-webkit-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.21);
+-moz-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.21);
+margin: 4vh 0;
+}
+
+.tagitem{
+    background-color: #C6E3F1;
+    color: white;
+    margin-right: 2%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10%;
+    color: #467BA2;
+    min-width: 10%;
+    text-align: center;
+    min-height: 5vh;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.cancel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.tagitem:hover{
+    background-color: #c4cace;
+    cursor: pointer;
+}
